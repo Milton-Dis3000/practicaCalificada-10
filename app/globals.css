@@ -1,6 +1,6 @@
 *{
   background-image: url("");
-  background-color: rgb(255, 182, 46);
+  background-color: rgb(255, 208, 53);
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
@@ -23,7 +23,7 @@
   
 .cardPokemon {     
     width: 200px;     
-    border: none;     
+    border: 1px solid rgb(253, 255, 119);    
     border-radius: 10px;     
     display: flex;     
     flex-direction: column;     
