@@ -23,7 +23,7 @@
   
 .cardPokemon {     
     width: 200px;     
-    border: 1px solid rgb(253, 255, 119);    
+    border: 4px solid rgb(255, 255, 255);    
     border-radius: 10px;     
     display: flex;     
     flex-direction: column;     
