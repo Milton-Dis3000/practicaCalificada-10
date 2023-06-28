@@ -1,5 +1,9 @@
 import React from "react";
 
+
+
+
+
 async function getData(id) {
   const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
   const data = await response.json();
@@ -10,6 +14,9 @@ async function getData(id) {
 async function page({ params }) {
   const data = await getData(params.id);
   console.log(data);
+
+
+  
 
   return (
     <div

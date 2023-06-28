@@ -1,6 +1,8 @@
 // "use client";
 import CardPokemon from "@/components/CardPoquemon";
 
+
+
 async function getData(url) {
   const response = await fetch(url);
   const data = await response.json();
@@ -9,7 +11,7 @@ async function getData(url) {
 }
 
 export default async function Home() {
-  const data = await getData("https://pokeapi.co/api/v2/pokemon?limit=21");
+  const data = await getData("https://pokeapi.co/api/v2/pokemon?limit=26");
   const firstData = data.results;
 
   return (

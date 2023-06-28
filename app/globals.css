@@ -1,8 +1,8 @@
 *{
   background-image: url("");
-  background-color: rgb(255, 208, 53);
+  
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
 }
 
 
@@ -51,4 +51,41 @@
 .cardPokemon > p
 {
     margin: 0;
+    background-color: none;
 }
+
+
+
+
+.spliner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  animation: spin 2s linear infinite;
+  
+  
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+}
+
+.spliner:hover {
+  animation-play-state: paused;
+ 
+  
+  
+}
+
+
